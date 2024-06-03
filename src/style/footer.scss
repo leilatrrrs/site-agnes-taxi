@@ -1,0 +1,54 @@
+.footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 102px;
+    background-color: grey;
+    height: 350px;
+    font-size: 25px;
+}
+
+
+.footer-text{
+    font-family: 'aleo';
+    background-color: grey;
+}
+
+.footer-plan {
+    background-color: grey;
+}
+.footer-plan h2{
+    font-family: 'aleo';
+    background-color: grey;
+}
+.footer-plan a{
+    font-family: 'aleo';
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: grey;
+}
+.footer-contact{
+    background-color: grey;
+    padding: 10px;
+    
+}
+
+.footer-contact h2 {
+    background-color: grey;
+    font-family: 'aleo';
+
+}
+
+.footer-contact p{
+    margin-top: 20px;
+    background-color: grey;
+    font-family: 'aleo';
+}
+.footer-contact i {
+    background-color: grey;
+}

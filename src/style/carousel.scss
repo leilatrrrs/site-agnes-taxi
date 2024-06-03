@@ -1,0 +1,11 @@
+.custom-carousel {
+    max-width: 100%; /* Réglez cette valeur selon vos besoins */
+    margin: 10px 20px; /* Centre le carousel horizontalement */
+}
+
+/* Assurez-vous que les images sont ajustées à la taille du carousel */
+.custom-carousel .carousel-item img {
+    width: 100%;
+    height: 1000px;
+
+}
