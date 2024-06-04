@@ -30,7 +30,8 @@ function Intro () {
                 <p> <i class="fa-solid fa-phone"></i> 06 07 04 97 94</p>
             </div>
             <div className="intro-tarif">
-                Nos tarifs sont en accord avec la réglementation nationale,
+                <h2>Les Tarifs</h2>
+                <p>Nos tarifs sont en accord avec la réglementation nationale,
                 garantissant ainsi des prix justes et transparents pour tous nos clients.
                 Nous veillons à appliquer des tarifs compétitifs et 
                 conformes aux arrêtés préfectoraux, 
@@ -39,18 +40,25 @@ function Intro () {
                 un kilométrage ou des éventuels suppléments, 
                 vous pouvez être assurés que nos prix respectent 
                 les plafonds légaux en vigueur, 
-                vous offrant ainsi un service de taxi fiable et équitable.
+                vous offrant ainsi un service de taxi fiable et équitable.</p>               
+                <p className="intro-info-tarif"> Pour plus d'information sur nos tarifs <a href="https://www.legifrance.gouv.fr/jorf/id/JORFARTI000049040526"> cliquez ici</a>.</p>
             </div>
-            <div className="intro-info-tarif">
-               <p> Pour plus d'information sur nos tarifs <a href="https://www.legifrance.gouv.fr/jorf/id/JORFARTI000049040526"> cliquez ici</a>.</p>
-            </div>
+
             <div className="intro-paiement">
-                <p>Paiement par carte bancaire ou epèces</p>
+                <p>Paiement par CB ou espèces</p>
                     <div className="intro-logo">
-                        <i class="fa-brands fa-cc-mastercard"></i>
-                        <i class="fa-brands fa-cc-visa"></i>
-                        <i class="fa-solid fa-credit-card"></i>
-                        <i class="fa-solid fa-money-bill"></i>
+                        <div className="intro-box-master">
+                            <i class="fa-brands fa-cc-mastercard"></i>
+                        </div>
+                        <div className="intro-box-visa">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </div>
+                        <div className="intro-box-card">
+                            <i class="fa-solid fa-credit-card"></i>
+                        </div>
+                        <div className="intro-box-money">
+                            <i class="fa-solid fa-money-bill"></i>
+                        </div>
                     </div>
             </div>
 
