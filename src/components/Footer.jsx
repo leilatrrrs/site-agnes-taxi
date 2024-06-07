@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom"
 
+
 function Footer () {
     return (
         <div className="footer">
@@ -13,12 +14,20 @@ function Footer () {
                 <NavLink to="/vehicules">Notre véhicule</NavLink>
                 <NavLink to="/transports">Les transports</NavLink>
             </div>
+            <div className="box-google">
+                <img src="/images/logo-google.png" alt="logo google" />
+                <div className="box-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            </div>
             <div className="footer-contact">
                 <h2>Contact</h2>
                 <p> <i class="fa-solid fa-phone"></i> 06 07 04 97 94</p>
                 <p> <i class="fa-solid fa-location-dot"></i> La Teste de Buch</p>
             </div>
+
         </div>
+        
     )
 }
 export default Footer
