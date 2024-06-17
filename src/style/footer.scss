@@ -1,16 +1,17 @@
 .footer {
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 102px;
+    padding-inline: 80px;
     background-color: grey;
     height: 350px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
-
+.footer-a {
+    margin-bottom: -20px;}
 .footer-text{
     font-family: 'aleo';
     background-color: grey;
@@ -32,9 +33,11 @@
     padding: 10px;
     background-color: grey;
 }
+
+
 .footer-contact{
     background-color: grey;
-    padding: 10px;
+    padding-bottom: 43px;
     
 }
 
@@ -53,6 +56,77 @@
     background-color: grey;
 }
 
+.box-google {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5%;
+    background-color: white;
+}
+
 .box-google img {
-    background-color: grey;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+}
+
+.box-stars{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    height: 50px;
+    
+    & p {
+        background-color: white;
+        color: black;
+        margin-right: 10px;
+    }
+
+    & i {
+        background-color: white;
+        color: #FCBF02;
+
+    }
+}
+
+.box-google-text {
+    background-color: white;
+
+& a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+}
+
+.divider {
+    width: 1px;
+    background-color: #ccc; /* Adjust the color as needed */
+    height: 50%; /* Adjust the height as needed */
+    margin: 0 10px; /* Adjust the margin as needed to control spacing */
+}
+
+
+.footer-text-bottom p{
+    width: 100%;
+    color: white;
+    background-color: gray;
+    font-family: 'aleo';
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    
+    & a {
+        background-color: grey;
+        color: white;
+        text-decoration: none;
+        margin-inline: 8px ;
+        font-family: "aleo";
+    }
 }

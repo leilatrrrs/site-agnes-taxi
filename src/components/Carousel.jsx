@@ -1,34 +1,24 @@
 import React from "react";
 
-function Carousel () {
+function Carousel ({images}) {
     return(
-<div id="header-carousel" className="custom-carousel">
-			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-				
-
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img src="/images/ba-1.webp"  
-							
-							class="d-block w-100" alt="Man crossing the street"/>
-					</div>
-					<div class="carousel-item">
-						<img src="/images/ba-2.webp" 
-						
-									sizes="(max-width: 1920px) 100vw, 50vw"					
-							class="d-block w-100" alt="Crowd at a concert" loading="lazy"/>
-					</div>
-					<div class="carousel-item">
-						<img src="/images/ba-3.webp" 
-					
-								sizes="(max-width: 1920px) 100vw, 50vw"						
-						class="d-block w-100" alt="Married couple" loading="lazy"/>
-					</div>
-				</div>
-
-				
-			</div>
+		<div id="header-carousel" className="custom-carousel">
+		<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+		  <div className="carousel-inner">
+			{images.map((image, index) => (
+			  <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
+				<img
+				  src={image.src}
+				  sizes="(max-width: 1920px) 100vw, 50vw"
+				  className="d-block w-100"
+				  alt={image.alt}
+				  loading={index === 0 ? 'eager' : 'lazy'}
+				/>
+			  </div>
+			))}
+		  </div>
 		</div>
+	  </div>
     )
 }
 export default Carousel;
