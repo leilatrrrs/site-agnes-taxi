@@ -8,9 +8,10 @@ import Footer from '../components/Footer';
 
 function Home() {
     const defaultImages = [
-        { src: "/images/ba-1.webp", alt: "Man crossing the street" },
-        { src: "/images/ba-2.webp", alt: "Crowd at a concert" },
-        { src: "/images/ba-3.webp", alt: "Married couple" }
+        { src: "/images/ba-1920.webp",srcset:"/images/ba-1180.webp 1180w,/images/ba-1000.webp 1000w,/images/ba-650.webp 650w" , alt: "bassin d'arcachon" },
+        { src: "/images/bdx-1920.webp",srcset:"/images/bdx-1180.webp 1180w,/images/bdx-1000.webp 1000w,/images/bdx-650.webp 650w" , alt: "Bordeaux" },
+        { src: "/images/vin-1920.webp",srcset:"/images/vin-1180.webp 1180w,/images/vin-1000.webp 1000w,/images/vin-650.webp 650w" , alt: "Vignoble" },
+        
       ];
       
     return (

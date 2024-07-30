@@ -16,6 +16,12 @@ function PresentationVoiture (){
                         <h2>Service Haut de Gamme</h2>
                             <p>Nos chauffeurs professionnels sont dévoués à votre confort et sécurité. Ils vous offriront une conduite douce et agréable, tout en étant attentifs à vos besoins.</p>
                 </div>
+                <img className= "img-mercedes" src="./images/mercedes-1.webp"
+                srcSet="./images/mercedes-1-1180.webp 1180w,
+                        ./images/mercedes-1-1000.webp 1000w, 
+                        ./images/mercedes-1-650.webp 650w "
+                sizes="(max-width: 1920px) 100vw 50vw"
+                 alt="" />
         </div>
 )}
 

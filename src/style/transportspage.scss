@@ -17,9 +17,10 @@
     & h1{
         font-size: 80px;
         margin-bottom: 70px;
+        text-align: center;
     }
     & p{
-        font-size: 30px;
+        font-size: 20px;
         margin-inline: 200px;
     }
     & i{
@@ -34,10 +35,11 @@
     & h1{
         font-size: 80px;
         margin-bottom: 70px;
+        text-align: center;
     }
     & p{
-        font-size: 30px;
-        margin-inline: 200px;
+        font-size: 20px;
+        margin-inline: 235px;
     }
     & i{
         margin-right: 20px;
@@ -51,9 +53,10 @@
     & h1{
         font-size: 80px;
         margin-bottom: 50px;
+        text-align: center;
     }
     & p{
-        font-size: 30px;
+        font-size: 20px;
         margin-inline: 200px;
     }
     & i{
@@ -75,4 +78,31 @@
     margin-bottom: 80px;
     font-family: 'abril fatface';
     font-size: 30px;
+}
+
+
+
+@media (max-width:975px) {
+    .tr-gare-aero h1,
+    .tr-hop h1,
+    .tr-tt-distance h1{
+        margin-inline: 10px;
+        font-size: 51px;
+        text-align: center;
+    }
+    .tr-gare-aero h1{
+        margin-top: 70px;
+    }
+    .tr-gare-aero p,
+    .tr-hop p,
+    .tr-tt-distance p{
+margin-inline: 10px;
+    }
+}
+
+@media (max-width:508px) {
+    .tr-hop h2,h3 {
+        font-size: 50px;
+        text-align: center;
+    }
 }

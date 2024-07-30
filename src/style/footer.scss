@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-between;
     padding-inline: 80px;
-    background-color: grey;
+    background-color: #3b3939;
     height: 350px;
     font-size: 20px;
 }
@@ -14,15 +14,15 @@
     margin-bottom: -20px;}
 .footer-text{
     font-family: 'aleo';
-    background-color: grey;
+    background-color: #3b3939;
 }
 
 .footer-plan {
-    background-color: grey;
+    background-color: #3b3939;
 }
 .footer-plan h2{
     font-family: 'aleo';
-    background-color: grey;
+    background-color: #3b3939;
 }
 .footer-plan a{
     font-family: 'aleo';
@@ -31,29 +31,29 @@
     color: white;
     text-decoration: none;
     padding: 10px;
-    background-color: grey;
+    background-color: #3b3939;
 }
 
 
 .footer-contact{
-    background-color: grey;
+    background-color: #3b3939;
     padding-bottom: 43px;
     
 }
 
 .footer-contact h2 {
-    background-color: grey;
+    background-color: #3b3939;
     font-family: 'aleo';
 
 }
 
 .footer-contact p{
     margin-top: 20px;
-    background-color: grey;
+    background-color: #3b3939;
     font-family: 'aleo';
 }
 .footer-contact i {
-    background-color: grey;
+    background-color: #3b3939;
 }
 
 .box-google {
@@ -114,7 +114,7 @@
 .footer-text-bottom p{
     width: 100%;
     color: white;
-    background-color: gray;
+    background-color: #3b3939;
     font-family: 'aleo';
     font-size: 15px;
     display: flex;
@@ -123,10 +123,61 @@
     padding-bottom: 20px;
     
     & a {
-        background-color: grey;
+        background-color: #3b3939;
         color: white;
         text-decoration: none;
         margin-inline: 8px ;
         font-family: "aleo";
+    }
+}
+
+@media (max-width:975px) {
+    .footer{
+        padding-inline: 15px;
+    }
+}
+
+@media (max-width:800px) {
+    .footer {
+      padding-inline: 5px;
+    }
+    .footer-text,.footer-contact,.footer-plan {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:696px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        padding-top: 150px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        padding-inline: 10px;
+    }
+    .divider {
+        display: none;
+    }
+    .box-google{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20px;
+    }
+    .footer-contact {
+        padding-top: 6px;
+    }
+}
+
+@media (max-width:443px) {
+    .footer{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .footer-text{
+        margin-top: 20px;
     }
 }

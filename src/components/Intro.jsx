@@ -41,7 +41,7 @@ function Intro () {
                 vous pouvez être assurés que nos prix respectent 
                 les plafonds légaux en vigueur, 
                 vous offrant ainsi un service de taxi fiable et équitable.</p>               
-                <p className="intro-info-tarif"> Pour plus d'information sur nos tarifs <a href="https://www.legifrance.gouv.fr/jorf/id/JORFARTI000049040526"> cliquez ici</a>.</p>
+                <p className="intro-info-tarif"> Pour plus d'information sur nos tarifs <a href="https://www.legifrance.gouv.fr/jorf/id/JORFARTI000049040526"> cliquez ici.</a></p>
             </div>
 
             <div className="intro-paiement">

@@ -5,9 +5,9 @@ function TransportsPage () {
     <div className="transports">
         <div className="tr-gare-aero">
             <h1>Transports Gare / Aéroport</h1>
-                <p><i class="fa-solid fa-circle"></i>Prise en charge depuis et vers les gares et aéroprts de Bordeaux et du Bassin d'Arcachon.</p>
-                <p><i class="fa-solid fa-circle"></i>Nous vous conduirons au plus proche des quais et terminaux pour faciliter votre voyage et vous faire gagner du temps. </p>
-                <p><i class="fa-solid fa-circle"></i>Aéroport de Bodeaux-Mérignac, Aérodrome de Villemarie (Arcachon), Gare St Jean, Gares du Bassin d'Arcachon ...</p>
+                <p><i class="fa-solid fa-circle fa-xs"></i>Prise en charge depuis et vers les gares et aéroprts de Bordeaux et du Bassin d'Arcachon.</p>
+                <p><i class="fa-solid fa-circle fa-xs"></i>Nous vous conduirons au plus proche des quais et terminaux pour faciliter votre voyage et vous faire gagner du temps. </p>
+                <p><i class="fa-solid fa-circle fa-xs"></i>Aéroport de Bodeaux-Mérignac, Aérodrome de Villemarie (Arcachon), Gare St Jean, Gares du Bassin d'Arcachon ...</p>
         </div>
         <div className="tr-tt-distance">
             <h1>Transports Toutes Distances</h1>
