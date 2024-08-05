@@ -13,7 +13,7 @@ function Header () {
                     <p className="box-header-text"> <i class="fa-solid fa-phone"></i> 06 07 04 97 94</p>
                 </div>
                 
-                <NavLink><img src="/images/logo-agnes-taxi.png" alt="" /></NavLink>
+                <NavLink><img src="/images/logo-agnes-taxi.png" alt="Logo AGNES TAXI" /></NavLink>
            
                  <div className="box-header">
                     <p className="box-header-text"> <i class="fa-solid fa-location-dot"></i> La Teste de Buch</p>

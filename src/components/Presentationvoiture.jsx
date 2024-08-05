@@ -21,7 +21,7 @@ function PresentationVoiture (){
                         ./images/mercedes-1-1000.webp 1000w, 
                         ./images/mercedes-1-650.webp 650w "
                 sizes="(max-width: 1920px) 100vw 50vw"
-                 alt="" />
+                 alt="Image Mercedes glc 220d devant bassin d'Arcachon" />
         </div>
 )}
 
